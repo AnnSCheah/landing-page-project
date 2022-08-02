@@ -46,7 +46,8 @@ a {
   display: flex;
   flex: 1;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+  padding: 100px 50px;
   gap: 56px;
 }
 
@@ -87,11 +88,11 @@ a {
   color: #eee;
   border: none;
   border-radius: 5px;
-  padding: 8px 25px;
+  padding: 8px 50px;
 }
 
 .info-container {
-  padding: 24px;
+  padding: 100px 50px;
 }
 
 .info-box {
@@ -123,6 +124,32 @@ a {
   color: #1f2937;
   text-align: center;
   padding-bottom: 24px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-box {
+  width: 800px;
+  margin: 100px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+
+.quote-name {
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: auto;
+  float: right;
 }
 
 .footer {
